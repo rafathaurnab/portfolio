@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rafathahamed.cv</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="mini-bar">
+            <div class="header-social">
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav-bar">
+
+            <a href="#hero" aria-label="Home"><i class="fa-solid fa-house"></i></a>
+            <a href="#portfolio" aria-label="Portfolio"><i class="fa-solid fa-folder"></i></a>
+            <a href="#blog" aria-label="Blog"><i class="fa-solid fa-pen"></i></a>
+            <a href="#analytics" aria-label="Analytics"><i class="fa-solid fa-chart-bar"></i></a>
+            <a href="#qualifications" aria-label="Qualifications"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#contact" aria-label="Contact"><i class="fa-solid fa-envelope"></i></a>
+        </nav>
+    </div>
+    <main>
+        <section id="hero" class="hero">
+
+            <div class="profile-section">
+                <img src="profile.jpg" alt="Rafath Ahamed Aurnab" class="profile-picture">
+                <h2 class="profile-name">Rafath Ahamed Aurnab</h2>
+            </div>
+            <h1>Transforming Your Ideas into <span style="color: #a855f7;">Reality</span></h1>
+            <p>Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.</p>
+            <div class="hero-stats">
+                <div class="hero-stat">+12 Years of Experience</div>
+                <div class="hero-stat">+46 Projects Completed</div>
+                <div class="hero-stat">+20 Worldwide Clients</div>
+            </div>
+            <div class="cta-buttons">
+                <button>Let's Talk</button>
+                <button class="secondary">My Work →</button>
+            </div>
+        </section>
+    </main>
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portfolio</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <p>Built a full-stack e-commerce solution with React and Node.js</p>
+                <a href="#" class="project-link">View Details →</a>
+            </div>
+            <div class="project-card">
+                <h3>AI Chatbot</h3>
+                <p>Developed an intelligent chatbot using Python and NLP</p>
+                <a href="#" class="project-link">View Details →</a>
+            </div>
+            <div class="project-card">
+                <h3>Mobile App</h3>
+                <p>Created a cross-platform mobile app with React Native</p>
+                <a href="#" class="project-link">View Details →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section">
+        <h2>Blog</h2>
+        <div class="blog-posts">
+            <article class="blog-post">
+                <h3>Optimizing React Performance</h3>
+                <p>Tips and techniques for improving React app performance...</p>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+            <article class="blog-post">
+                <h3>AI in Web Development</h3>
+                <p>Exploring how AI is transforming modern web development...</p>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="analytics" class="section">
+        <h2>Analytics</h2>
+        <div class="charts-container">
+            <div class="skill-chart">
+                <h4>Web Development</h4>
+                <div class="chart-bar" style="width: 90%"></div>
+            </div>
+            <div class="skill-chart">
+                <h4>Mobile Development</h4>
+                <div class="chart-bar" style="width: 80%"></div>
+            </div>
+            <div class="skill-chart">
+                <h4>AI/ML</h4>
+                <div class="chart-bar" style="width: 75%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="qualifications" class="section">
+        <h2>Qualifications</h2>
+        <div class="qualifications-grid">
+            <div class="qualification-card">
+                <h3>Bachelor of Science</h3>
+                <p>Computer Science & Engineering</p>
+                <p>University of XYZ</p>
+                <p>2015 - 2019</p>
+            </div>
+            <div class="qualification-card">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>AWS Certified Solutions Architect</li>
+                    <li>Google Professional Cloud Architect</li>
+                    <li>Microsoft Certified: Azure Solutions Architect Expert</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <script>
+        // Dark mode toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme');
+        
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            } else {
+                localStorage.setItem('theme', 'light');
+                themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>>
